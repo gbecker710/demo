@@ -4,7 +4,7 @@
       "environment": "any",
       "latency": {
         "rtt": {
-          "max": "string",
+          "max": "TEST",
           "avg": "string",
           "accuracy": "hours",
           "min": "string"
