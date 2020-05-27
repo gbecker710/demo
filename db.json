@@ -1,14 +1,83 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "report": [
+    {
+      "environment": "any",
+      "latency": {
+        "rtt": {
+          "max": "string",
+          "avg": "string",
+          "accuracy": "hours",
+          "min": "string"
+        },
+        "uplinkLatency": {
+          "max": "string",
+          "avg": "string",
+          "accuracy": "hours",
+          "min": "string"
+        },
+        "quality": "good",
+        "downlinkLatency": {
+          "max": "string",
+          "avg": "string",
+          "accuracy": "hours",
+          "min": "string"
+        }
+      },
+      "reliability": {
+        "loss": {
+          "uplinkReliability": "string",
+          "quality": "good",
+          "downlinkReliability": "string"
+        },
+        "quality": "good",
+        "retransmission": {
+          "uplinkReliability": "string",
+          "quality": "good",
+          "downlinkReliability": "string"
+        },
+        "error": {
+          "uplinkReliability": "string",
+          "quality": "good",
+          "downlinkReliability": "string"
+        }
+      },
+      "jitter": {
+        "downlinkJitter": {
+          "max": "string",
+          "avg": "string",
+          "accuracy": "hours",
+          "min": "string"
+        },
+        "uplinkJitter": {
+          "max": "string",
+          "avg": "string",
+          "accuracy": "hours",
+          "min": "string"
+        },
+        "quality": "good"
+      },
+      "reportId": "string",
+      "speed": {
+        "uplinkUtilization": "string",
+        "downlinkBandwidth": "string",
+        "downlinkThroughput": "string",
+        "uplinkBandwidth": "string",
+        "uplinkThroughput": "string",
+        "downlinkUtilization": "string",
+        "quality": "good"
+      },
+      "availability": {
+        "downlinkFail": "string",
+        "linkFail": "string",
+        "quality": "good",
+        "uplinkFail": "string"
+      }
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "measurementDuration": {
+    "max": "string",
+    "avg": "string",
+    "accuracy": "hours",
+    "min": "string"
   }
 }
